@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>quad_cpg</name>
+  <version>0.1.0</version>
+  <description>Hopf oscillator CPG for quadruped control in Gazebo</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <build_type>ament_python</build_type>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>go1_description</exec_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+</package>
